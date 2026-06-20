@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RHTT - 東海地方限定・携帯販売特化の人材派遣・紹介 | 理想の働き方を実現</title>
+  <meta name="description" content="東海地方（愛知・岐阜・三重・静岡）限定の携帯販売に特化した人材紹介サービス「RHTT」。未経験でも安心の研修制度や柔軟な働き方、スピードマッチングで理想のお仕事探しをサポートします。">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons (CDN for mock icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Light Glows -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <!-- Header -->
+  <header id="header" class="site-header">
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <span class="logo-accent">R</span>HTT
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#features">特徴・強み</a></li>
+          <li><a href="#candidates">求職者の方へ</a></li>
+          <li><a href="#businesses">企業担当者様へ</a></li>
+          <li><a href="#simulator">給与シミュレータ</a></li>
+          <li><a href="#contact" class="nav-cta"><i class="fa-brands fa-line"></i> LINEで相談</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-toggle" aria-label="メニュー開閉" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav" id="mobileNav">
+    <ul>
+      <li><a href="#features">特徴・強み</a></li>
+      <li><a href="#candidates">求職者の方へ</a></li>
+      <li><a href="#businesses">企業担当者様へ</a></li>
+      <li><a href="#simulator">給与シミュレータ</a></li>
+      <li><a href="#contact" class="mobile-nav-cta"><i class="fa-brands fa-line"></i> LINEで相談</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">TOKAI AREA MOBILE STAFFING</div>
+        <h1 class="hero-title">
+          東海地方の店舗と人を結ぶ、<br>
+          <span class="gradient-text">携帯販売のパートナー。</span>
+        </h1>
+        <p class="hero-subtitle">
+          RHTTは、愛知・岐阜・三重・静岡に密着した携帯販売特化の人材紹介サービスです。あなたの理想の働き方の実現と、店舗の成長をサポートします。
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            <i class="fa-brands fa-line"></i> 求職者様 LINE相談
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i class="fa-solid fa-building"></i> 企業担当者様はこちら
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">94<span class="stat-unit">%</span></span>
+            <span class="stat-label">未経験スタート率</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100<span class="stat-unit">%</span></span>
+            <span class="stat-label">東海4県密着サポート</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">98<span class="stat-unit">%</span></span>
+            <span class="stat-label">マッチング満足度</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-wrapper">
+          <img src="assets/hero_bg.png" alt="RHTT Staffing Visual" class="hero-img">
+          <div class="glass-card card-floating-1">
+            <i class="fa-solid fa-mobile-screen-button icon-glow"></i>
+            <div>
+              <h4>東海エリア特化</h4>
+              <p>地域密着の案件力</p>
+            </div>
+          </div>
+          <div class="glass-card card-floating-2">
+            <i class="fa-solid fa-clock icon-glow-alt"></i>
+            <div>
+              <h4>柔軟な働き方</h4>
+              <p>週3日・時短勤務もOK</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features section-padding" id="features">
+    <div class="container">
+      <div class="section-header text-center scroll-reveal">
+        <h2 class="section-title">RHTTが選ばれる<span class="gradient-text">3つの強み</span></h2>
+        <p class="section-subtitle">東海地方の携帯販売業界に特化しているからこそ、実現できる働き方とサポートがあります。</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card glass-card scroll-reveal">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-book-open-reader"></i>
+          </div>
+          <h3>未経験でも安心の研修制度</h3>
+          <p>
+            最新スマートフォンの知識、料金プラン設計、接客の基本マナーから丁寧にお教えします。独自の研修カリキュラムを通じて、販売や接客の経験が全くない方でも、自信を持って仕事をスタートできます。
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card glass-card scroll-reveal">
+          <div class="feature-icon-wrapper wrapper-cyan">
+            <i class="fa-solid fa-calendar-check"></i>
+          </div>
+          <h3>柔軟な働き方に対応</h3>
+          <p>
+            「家庭や趣味と両立して週3日から働きたい」「残業がない職場が良い」「フルタイムでがっつり高時給で稼ぎたい」など、一人ひとりのライフスタイルに寄り添った最適な勤務シフトの案件をご紹介可能です。
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card glass-card scroll-reveal">
+          <div class="feature-icon-wrapper wrapper-magenta">
+            <i class="fa-solid fa-bolt-lightning"></i>
+          </div>
+          <h3>スピードとマッチング精度</h3>
+          <p>
+            愛知・岐阜・三重・静岡の大手キャリアショップや家電量販店との間に強力なネットワークを保有。スピーディーな対応により、ご相談からお仕事決定まで最短日数でマッチングを実現します。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Candidates Section -->
+  <section class="candidates section-padding bg-light-alt" id="candidates">
+    <div class="container">
+      <div class="section-header text-center scroll-reveal">
+        <h2 class="section-title">お仕事をお探しの方へ</h2>
+        <p class="section-subtitle">「自分にもできるかな？」という不安を解消し、自分らしい働き方を見つけましょう。</p>
+      </div>
+
+      <!-- Testimonials / Worker voices -->
+      <div class="testimonials-container scroll-reveal">
+        <h3 class="subsection-title text-center"><i class="fa-solid fa-comments gradient-icon"></i> 先輩スタッフの声</h3>
+        <div class="testimonials-slider">
+          <div class="testimonial-track" id="testimonialTrack">
+            <!-- Slide 1 -->
+            <div class="testimonial-card glass-card">
+              <div class="testimonial-header">
+                <div class="user-avatar"><i class="fa-solid fa-user-ninja"></i></div>
+                <div>
+                  <h4 class="user-name">S. Kさん (23歳)</h4>
+                  <p class="user-meta">前職: 飲食店アルバイト | 勤務地: 愛知県内キャリアショップ</p>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                「スマホのプランなんて全く分かりませんでしたが、RHTTの丁寧な研修制度のおかげで、接客の基本からスペックの知識までしっかり学べました。現場に出る前にデモ接客の練習ができたのも安心でした！」（研修制度について）
+              </p>
+            </div>
+            <!-- Slide 2 -->
+            <div class="testimonial-card glass-card">
+              <div class="testimonial-header">
+                <div class="user-avatar avatar-cyan"><i class="fa-solid fa-user-astronaut"></i></div>
+                <div>
+                  <h4 class="user-name">Y. Mさん (28歳)</h4>
+                  <p class="user-meta">前職: 一般事務員 | 勤務地: 岐阜県内家電量販店</p>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                「小さな子供がいるため、残業なし・週3日からの勤務を希望していました。RHTTさんが店舗側としっかりと交渉してくださり、柔軟な働き方に理解がある店舗を紹介してもらえたので、家事と両立して楽しく働けています。」（柔軟な働き方について）
+              </p>
+            </div>
+            <!-- Slide 3 -->
+            <div class="testimonial-card glass-card">
+              <div class="testimonial-header">
+                <div class="user-avatar avatar-magenta"><i class="fa-solid fa-user-graduate"></i></div>
+                <div>
+                  <h4 class="user-name">T. Aさん (25歳)</h4>
+                  <p class="user-meta">前職: フリーター | 勤務地: 静岡県内量販店（高時給案件）</p>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                「LINE登録後、すぐに連絡をくれて翌週には面接、その数日後には働き始めることができました！東海エリアの優良案件をスピーディーに提案してくれて、時給も前職より大幅にアップして大満足です。」（スピードとマッチング精度について）
+              </p>
+            </div>
+          </div>
+          <div class="slider-controls">
+            <button class="slider-btn prev-btn" id="prevBtn" aria-label="前へ"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="slider-btn next-btn" id="nextBtn" aria-label="次へ"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Businesses Section -->
+  <section class="businesses section-padding" id="businesses">
+    <div class="container">
+      <div class="section-header text-center scroll-reveal">
+        <h2 class="section-title">企業のご担当者様へ</h2>
+        <p class="section-subtitle">東海地方の店舗運営を強力に支える、即戦力の携帯販売スタッフを紹介します。</p>
+      </div>
+
+      <div class="biz-grid">
+        <div class="biz-content scroll-reveal">
+          <h3>このような課題を<br><span class="gradient-text">RHTT</span>がスピード解決します。</h3>
+          <ul class="challenge-list">
+            <li><i class="fa-solid fa-circle-xmark text-magenta"></i> 急なシフト穴埋め、繁忙期の増員が必要</li>
+            <li><i class="fa-solid fa-circle-xmark text-magenta"></i> 携帯販売の教育をする時間やトレーナーが不足している</li>
+            <li><i class="fa-solid fa-circle-xmark text-magenta"></i> 東海エリアの店舗でスタッフ採用に苦戦している</li>
+          </ul>
+          <div class="solution-points">
+            <div class="solution-item">
+              <i class="fa-solid fa-bolt-lightning text-cyan"></i>
+              <div>
+                <h4>即戦力スピードマッチング</h4>
+                <p>東海4県に特化しているため、急な欠員やご要望に対しても地域密着ネットワークで迅速にご紹介します。</p>
+              </div>
+            </div>
+            <div class="solution-item">
+              <i class="fa-solid fa-handshake text-cyan"></i>
+              <div>
+                <h4>安心のサポート・定着率</h4>
+                <p>求職者様への手厚い研修と柔軟な働き方のコーディネートにより、就業後のミスマッチを最小限に抑え定着を維持します。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="biz-image scroll-reveal">
+          <div class="glass-card stat-card">
+            <h4>対応携帯キャリア・ブランド</h4>
+            <p class="small">主要通信ブランドすべてに対応可能です</p>
+            <div class="carrier-logos">
+              <span class="carrier-badge carrier-docomo">docomo</span>
+              <span class="carrier-badge carrier-au">au</span>
+              <span class="carrier-badge carrier-sb">SoftBank</span>
+              <span class="carrier-badge carrier-uq">UQ mobile</span>
+              <span class="carrier-badge carrier-ym">Y!mobile</span>
+              <span class="carrier-badge carrier-rakuten">Rakuten Mobile</span>
+            </div>
+            <div class="satisfaction-meter">
+              <div class="meter-header">
+                <span>取引継続率 (東海エリア)</span>
+                <span class="bold">96.8%</span>
+              </div>
+              <div class="meter-bar-bg">
+                <div class="meter-bar-fill" style="width: 96.8%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Salary Simulator -->
+  <section class="simulator section-padding bg-light-alt" id="simulator">
+    <div class="container">
+      <div class="section-header text-center scroll-reveal">
+        <h2 class="section-title">東海地方限定<span class="gradient-text">給与シミュレータ</span></h2>
+        <p class="section-subtitle">携帯販売は高時給！ご希望の東海4県の勤務条件に合わせて想定月収を試算できます。</p>
+      </div>
+
+      <div class="simulator-wrapper glass-card scroll-reveal">
+        <div class="simulator-form">
+          <div class="sim-group">
+            <label for="simRegion"><i class="fa-solid fa-location-dot"></i> 希望勤務地 (東海4県)</label>
+            <select id="simRegion">
+              <option value="aichi" data-wage="1500">愛知県 (目安時給 1,500円〜)</option>
+              <option value="shizuoka" data-wage="1450">静岡県 (目安時給 1,450円〜)</option>
+              <option value="gifu" data-wage="1400">岐阜県 (目安時給 1,400円〜)</option>
+              <option value="mie" data-wage="1400">三重県 (目安時給 1,400円〜)</option>
+            </select>
+          </div>
+
+          <div class="sim-group">
+            <label for="simExperience"><i class="fa-solid fa-star"></i> 携帯販売の経験</label>
+            <select id="simExperience">
+              <option value="beginner" data-bonus="0">未経験（丁寧な研修からスタート）</option>
+              <option value="intermediate" data-bonus="100">接客・販売の経験あり +100円/h</option>
+              <option value="advanced" data-bonus="200">携帯販売の経験あり（資格保有等） +200円/h</option>
+            </select>
+          </div>
+
+          <div class="sim-group">
+            <label for="simDays"><i class="fa-solid fa-calendar-days"></i> 勤務日数（週）</label>
+            <select id="simDays">
+              <option value="5">週5日勤務（レギュラー・フルタイム）</option>
+              <option value="4">週4日勤務（プライベートと両立）</option>
+              <option value="3">週3日勤務（扶養内・時短希望など）</option>
+            </select>
+          </div>
+
+          <div class="sim-group">
+            <label for="simHours"><i class="fa-solid fa-clock"></i> 1日の勤務時間</label>
+            <select id="simHours">
+              <option value="8">8時間勤務 (基本フルタイム)</option>
+              <option value="6">6時間勤務 (子育て両立・時短等)</option>
+              <option value="4">4 hour-shifts等 (短時間希望)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="simulator-result">
+          <div class="result-box">
+            <span class="result-label">想定時給</span>
+            <div class="result-val-wrapper">
+              <span id="resWage" class="result-value">1,500</span>
+              <span class="result-unit">円</span>
+            </div>
+          </div>
+          <div class="result-divider"></div>
+          <div class="result-box">
+            <span class="result-label">想定月収（目安）</span>
+            <div class="result-val-wrapper highlight-cyan">
+              <span id="resMonthly" class="result-value-large">240,000</span>
+              <span class="result-unit-large">円</span>
+            </div>
+            <p class="sim-calc-info">※月4週換算。残業代・交通費等は含まれません。</p>
+          </div>
+          <div class="result-action">
+            <a href="#contact" class="btn btn-primary btn-block">この条件でLINE相談する</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section (LINE focus) -->
+  <section class="contact section-padding" id="contact">
+    <div class="container">
+      <div class="section-header text-center scroll-reveal">
+        <h2 class="section-title">LINEで簡単お仕事相談・エントリー</h2>
+        <p class="section-subtitle">RHTTへのお問い合わせ・ご相談はLINE公式アカウントから受け付けております。お気軽にご連絡ください。</p>
+      </div>
+
+      <div class="contact-cta-wrapper scroll-reveal">
+        <div class="cta-grid">
+          
+          <!-- Job Seeker LINE Card -->
+          <div class="cta-card glass-card text-center">
+            <div class="cta-icon-line">
+              <i class="fa-brands fa-line"></i>
+            </div>
+            <h3>お仕事をお探しの方<br><span class="small">(求職者エントリー)</span></h3>
+            <p>ご希望の勤務条件の相談、最新の求人情報のご紹介、未経験からの研修に関するお問い合わせなど、LINEでお気軽にご連絡ください！</p>
+            <a href="https://line.me/R/ti/p/mockup-rhtt-candidate" target="_blank" rel="noopener noreferrer" class="btn btn-line">
+              <i class="fa-brands fa-line"></i> LINEで友だち追加する
+            </a>
+            <span class="cta-subtext">※登録後、簡単なアンケートにお答えください。</span>
+          </div>
+
+          <!-- Business LINE Card -->
+          <div class="cta-card glass-card text-center">
+            <div class="cta-icon-line line-business">
+              <i class="fa-brands fa-line"></i>
+            </div>
+            <h3>人材をお探しの企業担当者様<br><span class="small">(人材紹介のご相談)</span></h3>
+            <p>東海エリアでのスタッフ増員計画、料金プランや手数料、ご紹介スピードについてのお見積もりなど、LINEよりスピーディーにご相談を承ります。</p>
+            <a href="https://line.me/R/ti/p/mockup-rhtt-business" target="_blank" rel="noopener noreferrer" class="btn btn-line btn-line-secondary">
+              <i class="fa-brands fa-line"></i> 企業様用LINEで相談する
+            </a>
+            <span class="cta-subtext">※お急ぎの場合は、ご挨拶後に「求人相談」とご送信ください。</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-info">
+        <a href="#" class="footer-logo"><span class="logo-accent">R</span>HTT</a>
+        <p class="footer-desc">東海地方（愛知・岐阜・三重・静岡）限定の携帯販売専門の人材紹介・人材派遣サービスを展開するRHTT。LINEでスピーディーにマッチングをサポートします。</p>
+        <p class="licence-num">有料職業紹介事業許可番号：23-ユ-XXXXXX</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>サービス情報</h4>
+          <ul>
+            <li><a href="#features">RHTTの強み</a></li>
+            <li><a href="#candidates">求職者の方へ</a></li>
+            <li><a href="#businesses">企業のご担当者へ</a></li>
+            <li><a href="#simulator">給与シミュレーション</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>お問い合わせ</h4>
+          <ul>
+            <li><a href="#contact">お仕事エントリー（LINE）</a></li>
+            <li><a href="#contact">人材紹介の相談（LINE）</a></li>
+            <li><a href="#">個人情報保護方針</a></li>
+            <li><a href="#">利用規約</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+      <p>&copy; 2026 RHTT Inc. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
