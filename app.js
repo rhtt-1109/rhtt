@@ -101,7 +101,7 @@ function initTestimonialSlider() {
 }
 
 /**
- * 4. Salary Simulator (Tokai Region Focus)
+ * 4. Salary Simulator
  */
 function initSalarySimulator() {
   const simRegion = document.getElementById('simRegion');
@@ -115,7 +115,7 @@ function initSalarySimulator() {
   if (!simRegion || !simExperience || !simDays || !simHours || !resWage || !resMonthly) return;
 
   const calculateSalary = () => {
-    // 1. Get base wage from selected region option attribute (Aichi, Gifu, Mie, Shizuoka)
+    // 1. Get base wage from selected region option attribute (Kanto, Tokai, Kansai, etc.)
     const selectedRegionOpt = simRegion.options[simRegion.selectedIndex];
     const baseWage = parseInt(selectedRegionOpt.getAttribute('data-wage')) || 1400;
 
