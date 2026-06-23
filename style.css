@@ -914,6 +914,9 @@ h1, h2, h3, h4 {
   outline: none;
   cursor: pointer;
   transition: var(--transition-smooth);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .sim-group select:focus {
@@ -948,18 +951,19 @@ h1, h2, h3, h4 {
   display: flex;
   align-items: baseline;
   gap: 4px;
+  flex-wrap: wrap;
 }
 
 .result-value {
   font-family: var(--font-display);
-  font-size: 2.2rem;
+  font-size: clamp(1.6rem, 5vw, 2.2rem);
   font-weight: 700;
   color: var(--color-primary);
 }
 
 .result-value-large {
   font-family: var(--font-display);
-  font-size: 3rem;
+  font-size: clamp(2rem, 7vw, 3rem);
   font-weight: 800;
   color: var(--color-cyan);
 }
